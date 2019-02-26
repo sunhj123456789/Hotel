@@ -1,0 +1,11 @@
+<div class="list-group">
+    <a href="#" class="list-group-item 
+           d-flex justify-content-between mb-2"
+           (click)="onSelected()">           
+      <div class="w-100 float:left">
+        <h4 class=" list-group-item-heading">{{recdata.name}}</h4>
+        <p class=" list-group-item-text">{{recdata.description}}</p>
+     </div>
+      <img class="d-block float-right img-repsonsive" [src]="recdata.imagePath" style="max-height:50px" > 
+  </a>    
+</div>
